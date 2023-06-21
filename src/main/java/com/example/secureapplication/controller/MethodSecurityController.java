@@ -17,7 +17,7 @@ public class MethodSecurityController {
         this.applicationService = applicationService;
     }
     @GetMapping("/hi")
-    public String hello() {
+    public String hi() {
         return applicationService.hi();
     }
     @GetMapping("/welcome")
